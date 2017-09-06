@@ -4,7 +4,27 @@ body {
 .faint-cyan {
   background-color: rgba(255, 255, 255, 0.5);
   border-style: solid;
+  border-radius: 25px;
   border-width: 1px;
   width: 75rem;
   box-shadow: 5px 5px 25px #888888;
+  }
+  .footer {
+      position:fixed;bottom:0;
+
+      width:100%;
+      display:block;
+  }
+  .side-image {
+    position: fixed;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    bottom: 10px;
+    right: 1px;
+    display: block;
+    -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
+    -moz-transform: matrix(-1, 0, 0, 1, 0, 0);
+    -o-transform: matrix(-1, 0, 0, 1, 0, 0);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    }
   }
