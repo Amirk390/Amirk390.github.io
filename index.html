@@ -5,6 +5,7 @@
 <head>
   <center>
     <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="contact-me-style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
     <title>Amir's Website</title>
@@ -19,7 +20,21 @@
           <br><br> i chose to learn coding and work in this sumbject from now on.
         </p>
       </div>
+
+      <div class="container">
+<form method="post" action="mailto:amirkhoury930@gmail.com" >
+    <label for="fname">Your name</label><br>
+    <input type="text" id="fname" name="firstname" placeholder="Your name.."><br><br>
+
+    <label for="lname">Subject</label><br>
+    <input type="text" id="lname" name="lastname" placeholder="Your Subject"><br><br>
+
+    <label for="subject">Message</label><br>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea><br><br>
+
+<input type="submit" value="Send Email" />
+  </form>
+</div>
     </body>
 </head>
-
 </html>
