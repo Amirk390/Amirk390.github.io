@@ -1,3 +1,6 @@
 body {
-  background-color: hsl(120, 100%, 90%)
+  background-image: url("Images/172.jpg");
+}
+h1 {
+  text-align: center;
 }
