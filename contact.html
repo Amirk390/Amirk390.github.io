@@ -30,6 +30,66 @@
 
       <img class="side-image" src="Images/dance.gif">
 <audio class="music" src="RelaxMusic.mp3" controls autoplay></audio>
+      <p class="footer">&copy; 2017 Amir Khoury - GitHub.com/Amirk390</p>
+
+    </body>
+  </head>
+  </html>
+
+
+  <!DOCTYPE html>
+  <html>
+  <head>
+  <style>
+  body {
+      font-family: "Lato", sans-serif;
+  }
+
+  .sidenav {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: #0b223c;
+      box-shadow: 5px 5px 25px #888888;
+      overflow-x: hidden;
+      transition: 0.5s;
+      padding-top: 60px;
+  }
+
+  .sidenav a {
+      padding: 8px 8px 8px 32px;
+      text-decoration: none;
+      font-size: 25px;
+      color: #818181;
+      display: block;
+      transition: 0.3s;
+  }
+
+  .sidenav a:hover {
+      color: #f1f1f1;
+  }
+
+  .sidenav .closebtn {
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 36px;
+      margin-left: 50px;
+  }
+
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  </style>
+  </head>
+  <body>
+
+    <div id="mySidenav" class="sidenav blue-gradiant">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
       <div class="container">
         <form method="post" action="mailto:amirkhoury930@gmail.com">
           <label for="fname">Your name</label><br>
@@ -39,14 +99,23 @@
           <input type="text" id="lname" name="lastname" placeholder="Your Subject"><br><br>
 
           <label for="subject">Message</label><br>
-          <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea><br><br>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:10rem"></textarea><br><br>
 
           <input type="submit" value="Send Email" />
         </form>
       </div>
-      <p class="footer">&copy; 2017 Amir Khoury - GitHub.com/Amirk390</p>
+    </div>
 
-    </body>
-  </head>
+  <span class="popupcontact contact-me" style="font-size:30px;cursor:pointer" onclick="openNav()">Contact Me</span>
 
+  <script>
+  function openNav() {
+      document.getElementById("mySidenav").style.width = "50%";
+  }
+
+  function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+  }
+  </script>
+  </body>
   </html>

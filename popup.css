@@ -1,4 +1,4 @@
-
+<style>
 body {
     font-family: "Lato", sans-serif;
 }
@@ -10,7 +10,8 @@ body {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #111;
+    background-color: #6995c5;
+    box-shadow: 5px 5px 25px #888888;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
@@ -41,3 +42,4 @@ body {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
+</style>

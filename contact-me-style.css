@@ -24,8 +24,14 @@ input[type=submit]:hover {
 
 .container {
     width: 25rem;
-    background-color: rgb(207, 219, 254);
+    height: 50%;
     bottom: 10px;
     padding: 20px;
     border-radius: 50px;
     box-shadow: 5px 5px 25px #888888;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#969696+0,cecece+50,969696+100 */
+background: #969696; /* Old browsers */
+background: -moz-linear-gradient(-45deg, #969696 0%, #cecece 50%, #969696 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, #969696 0%,#cecece 50%,#969696 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, #969696 0%,#cecece 50%,#969696 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#969696', endColorstr='#969696',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
