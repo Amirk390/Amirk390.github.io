@@ -3,6 +3,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
 .faint-cyan {
   background-color: rgba(255, 255, 255, 0.5);
   border-style: solid;
@@ -10,7 +11,8 @@ body {
   border-width: 1px;
   width: 75rem;
   box-shadow: 1rem 1rem 25px #888888;
-  }
+}
+
 .border-left {
   background-color: rgba(255, 255, 255, 0.5);
   border-style: solid;
@@ -18,14 +20,15 @@ body {
   border-width: 1px;
   display: inline-block;
   width: 20%;
-  height: 30%;
   box-shadow: 1rem 1rem 25px #888888;
-  }
+}
+
 .image-left {
   border-radius: 2rem;
   width: 85%;
   margin-top: 0.1rem;
-  }
+}
+
 .border-middle {
   background-color: rgba(255, 255, 255, 0.5);
   border-style: solid;
@@ -36,12 +39,14 @@ body {
   box-shadow: 1rem 1rem 25px #888888;
   margin-left: 2%;
   margin-right: 2%;
-  }
+}
+
 .image-middle {
   border-radius: 2rem;
   width: 77%;
   margin-top: 0.1rem;
-  }
+}
+
 .border-right {
   background-color: rgba(255, 255, 255, 0.5);
   border-style: solid;
@@ -49,19 +54,22 @@ body {
   border-width: 1px;
   display: inline-block;
   width: 20%;
-  height: 30%;
   box-shadow: 1rem 1rem 25px #888888;
-    }
+}
+
 .image-right {
   border-radius: 2rem;
   width: 90%;
   margin-top: 0.1rem;
-  }
+}
+
 .footer {
-  position:fixed;bottom:0;
-  width:100%;
-  display:block;
-  }
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: block;
+}
+
 .side-image {
   position: fixed;
   margin-right: 1rem;
