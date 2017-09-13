@@ -1,3 +1,4 @@
+
 body {
   background-image: url("Images/172.jpg");
   background-repeat: no-repeat;
@@ -47,6 +48,16 @@ body {
   border-width: 1px;
   width: 75rem;
   height: 10%;
+  box-shadow: 1rem 1rem 25px #888888;
+}
+.contact-me {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-style: solid;
+  border-radius: 25px;
+  border-width: 1px;
+  width: 20%;
+  height: 5%;
+  padding-top: 1%;
   box-shadow: 1rem 1rem 25px #888888;
 }
 
@@ -136,4 +147,11 @@ body {
 }
 .icon-right {
    display: inline-block;
+}
+.popupcontact {
+  position: fixed;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  bottom: 3rem;
+  left: 5%;
 }
