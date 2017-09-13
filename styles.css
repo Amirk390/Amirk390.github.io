@@ -1,5 +1,7 @@
 body {
   background-image: url("Images/172.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 .faint-cyan {
   background-color: rgba(255, 255, 255, 0.5);
@@ -10,65 +12,67 @@ body {
   box-shadow: 1rem 1rem 25px #888888;
   }
 .border-left {
-    background-color: rgba(255, 255, 255, 0.5);
-    border-style: solid;
-    border-radius: 2rem;
-    border-width: 1px;
-    display: inline-block;
-    width: 20%;
-    height: 30%;
-    box-shadow: 1rem 1rem 25px #888888;
-    }
+  background-color: rgba(255, 255, 255, 0.5);
+  border-style: solid;
+  border-radius: 2rem;
+  border-width: 1px;
+  display: inline-block;
+  width: 20%;
+  height: 30%;
+  box-shadow: 1rem 1rem 25px #888888;
+  }
 .image-left {
-    border-radius: 2rem;
-    margin-top: -10px;
-    width: 90%;
-    }
+  border-radius: 2rem;
+  margin-top: -10px;
+  width: 85%;
+  margin-top: 0.1rem;
+  }
 .border-middle {
-    background-color: rgba(255, 255, 255, 0.5);
-    border-style: solid;
-    border-radius: 2rem;
-    border-width: 1px;
-    display: inline-block;
-    width: 20%;
-    box-shadow: 1rem 1rem 25px #888888;
-    margin-left: 2%;
-    margin-right: 2%;
-    }
+  background-color: rgba(255, 255, 255, 0.5);
+  border-style: solid;
+  border-radius: 2rem;
+  border-width: 1px;
+  display: inline-block;
+  width: 20%;
+  box-shadow: 1rem 1rem 25px #888888;
+  margin-left: 2%;
+  margin-right: 2%;
+  }
 .image-middle {
-    border-radius: 2rem;
-    margin-top: -10px;
-    width: 77%;
-    }
+  border-radius: 2rem;
+  margin-top: -10px;
+  width: 77%;
+  margin-top: 0.1rem;
+  }
 .border-right {
-    background-color: rgba(255, 255, 255, 0.5);
-    border-style: solid;
-    border-radius: 2rem;
-    border-width: 1px;
-    display: inline-block;
-    width: 20%;
-    height: 30%;
-    box-shadow: 1rem 1rem 25px #888888;
-      }
-.image-right {
-    border-radius: 2rem;
-    margin-top: -10px;
-    width: 90%;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-style: solid;
+  border-radius: 2rem;
+  border-width: 1px;
+  display: inline-block;
+  width: 20%;
+  height: 30%;
+  box-shadow: 1rem 1rem 25px #888888;
     }
+.image-right {
+  border-radius: 2rem;
+  margin-top: -10px;
+  width: 90%;
+  margin-top: 0.1rem;
+  }
 .footer {
-    position:fixed;bottom:0;
-    width:100%;
-    display:block;
+  position:fixed;bottom:0;
+  width:100%;
+  display:block;
   }
 .side-image {
-    position: fixed;
-    margin-right: 1rem;
-    margin-bottom: 1rem;
-    bottom: 1rem;
-    right: 1rem;
-    webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
-    -moz-transform: matrix(-1, 0, 0, 1, 0, 0);
-    -o-transform: matrix(-1, 0, 0, 1, 0, 0);
-    transform: matrix(-1, 0, 0, 1, 0, 0);
-    }
-  }
+  position: fixed;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  bottom: 1rem;
+  right: 1rem;
+  webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
+  -moz-transform: matrix(-1, 0, 0, 1, 0, 0);
+  -o-transform: matrix(-1, 0, 0, 1, 0, 0);
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
