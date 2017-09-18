@@ -3,6 +3,9 @@ body {
     font-family: "Lato", sans-serif;
 }
 
+
+<head>
+<style>
 .sidenav {
     height: 100%;
     width: 0;
@@ -10,7 +13,7 @@ body {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #6995c5;
+    background-color: #0b223c;
     box-shadow: 5px 5px 25px #888888;
     overflow-x: hidden;
     transition: 0.5s;

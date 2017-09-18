@@ -6,6 +6,10 @@ body {
   background-attachment: fixed;
   margin:0;
 }
+.scrolling-text {
+  left: 50%;
+  margin-left: 40rem;
+}
 .outliner {
   text-shadow:
 -1px -1px 1rem #77f2ff,
