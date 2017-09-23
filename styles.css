@@ -6,6 +6,10 @@ body {
   background-attachment: fixed;
   margin:0;
 }
+.qr-code {
+width: 25%;
+height: 25%;
+}
 .scrolling-text {
     text-align: center;
 }
@@ -123,16 +127,69 @@ body {
   display: block;
 }
 
-.side-image {
+.right-image {
   position: fixed;
   margin-right: 1rem;
   margin-bottom: 1rem;
-  bottom: 1rem;
   right: 1rem;
-  webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
-  -moz-transform: matrix(-1, 0, 0, 1, 0, 0);
-  -o-transform: matrix(-1, 0, 0, 1, 0, 0);
-  transform: matrix(-1, 0, 0, 1, 0, 0);
+  top: 5.1rem;
+width: 12%;
+}
+.right-image2 {
+  position: fixed;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  right: 1rem;
+  bottom: 30rem;
+  width: 12%;
+}
+.right-image3 {
+  position: fixed;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  right: 1rem;
+  bottom: 15rem;
+  width: 12%;
+}
+.right-image4 {
+  position: fixed;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  right: 1rem;
+  bottom: -1rem;
+  width: 12%;
+}
+.left-image {
+  position: fixed;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  left: 1rem;
+  top: 5.1rem;
+  width: 12%;
+}
+.left-image2 {
+  position: fixed;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  left: 1rem;
+  bottom: 30rem;
+  width: 12%;
+}
+.left-image3 {
+  position: fixed;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  left: 1rem;
+  bottom: 15rem;
+  width: 12%;
+}
+.left-image4 {
+  position: fixed;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  left: 1rem;
+  bottom: -1rem;
+  width: 12%;
 }
 .music {
   position: fixed;
