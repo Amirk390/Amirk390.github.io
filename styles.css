@@ -13,10 +13,13 @@ h1 {
 width: 25%;
 height: 25%;
 }
+p {
+  font-weight: bold;
+}
 .scrolling-text {
     text-align: center;
     color: white;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 .outliner {
   text-shadow:
