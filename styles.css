@@ -1,10 +1,13 @@
 
 body {
   background-color:black !important;
-  background-image: url("Images/172.jpg");
+  background-image: url("Images/Black-Background.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   margin:0;
+}
+h1 {
+  color: white;
 }
 .qr-code {
 width: 25%;
@@ -12,6 +15,8 @@ height: 25%;
 }
 .scrolling-text {
     text-align: center;
+    color: white;
+    font-size: 2rem;
 }
 .outliner {
   text-shadow:
@@ -19,7 +24,7 @@ height: 25%;
  1px -1px 1rem #77f2ff,
 -1px 1px 1rem #77f2ff,
  1px 1px 1rem #77f2ff;
- color: #ffcaf5 !important;
+ color: #ffffff !important;
  font-weight: bold !important;
 }
 .topnav {
@@ -27,8 +32,9 @@ height: 25%;
   border-radius: 1rem;
   width: 99%;
   overflow: hidden;
-  background-color: #1c8294;
+  background: -webkit-radial-gradient(center, ellipse cover, #bfbfbf 0%,#171515 100%);
   box-shadow: 1rem 1rem 25px #888888;
+
 }
 .topnav a {
   float: left;
@@ -47,7 +53,7 @@ height: 25%;
 }
 
 .topnav a.active {
-    background-color: #4CAF50;
+  background: -webkit-radial-gradient(center, ellipse cover, #ffffff 0%,#464646 100%);
 }
 
 .faint-cyan {
@@ -133,7 +139,8 @@ height: 25%;
   margin-bottom: 1rem;
   right: 1rem;
   top: 4rem;
-width: 12%;
+  width: 12%;
+  opacity: 0.1
 }
 .right-image2 {
   position: fixed;
@@ -142,6 +149,7 @@ width: 12%;
   right: 1rem;
   bottom: 30rem;
   width: 12%;
+  opacity: 0.1
 }
 .right-image3 {
   position: fixed;
@@ -150,6 +158,7 @@ width: 12%;
   right: 1rem;
   bottom: 15rem;
   width: 12%;
+  opacity: 0.1
 }
 .right-image4 {
   position: fixed;
@@ -158,6 +167,7 @@ width: 12%;
   right: 1rem;
   bottom: -1rem;
   width: 12%;
+  opacity: 0.1
 }
 .left-image {
   position: fixed;
@@ -165,7 +175,8 @@ width: 12%;
   margin-bottom: 1rem;
   left: 1rem;
   top: 4rem;
-    width: 12%;
+  width: 12%;
+  opacity: 0.1
 }
 .left-image2 {
   position: fixed;
@@ -174,6 +185,7 @@ width: 12%;
   left: 1rem;
   bottom: 30rem;
   width: 12%;
+    opacity: 0.1
 }
 .left-image3 {
   position: fixed;
@@ -182,6 +194,7 @@ width: 12%;
   left: 1rem;
   bottom: 15rem;
   width: 12%;
+    opacity: 0.1
 }
 .left-image4 {
   position: fixed;
@@ -190,6 +203,7 @@ width: 12%;
   left: 1rem;
   bottom: -1rem;
   width: 12%;
+    opacity: 0.1
 }
 .music {
   position: fixed;
@@ -218,9 +232,5 @@ width: 12%;
   left: 5%;
 }
 .blue-gradiant {
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#abb6cc+0,ffffff+50,b9c0cc+100 */
-background: #abb6cc; /* Old browsers */
-background: -moz-linear-gradient(-45deg, #abb6cc 0%, #ffffff 50%, #b9c0cc 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(-45deg, #abb6cc 0%,#ffffff 50%,#b9c0cc 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(135deg, #abb6cc 0%,#ffffff 50%,#b9c0cc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+background: linear-gradient(135deg, #4f4e4e 0%,#d4d4d4 50%,#4f4e4e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#abb6cc', endColorstr='#b9c0cc',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
